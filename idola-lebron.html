@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeBron James Idol Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: linear-gradient(to bottom, #552583, #FDB927);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.card img {
+  width: 220px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border: 4px solid white;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.box {
+  background: rgba(255,255,255,0.15);
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%;
+}
+
+.box h3 {
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #FFD700;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/LeBron_James_Lakers.jpg" alt="LeBron James"><h1>LeBron James</h1>
+<h2>The King 👑</h2>
+
+<p>
+  LeBron James adalah salah satu pemain basket terbaik sepanjang masa.
+  Ia dikenal karena kemampuan bermain yang lengkap, kepemimpinan,
+  dan prestasinya di NBA.
+</p>
+
+<div class="stats">
+  <div class="box">
+    <h3>NBA</h3>
+    <p>Champion</p>
+  </div>
+
+  <div class="box">
+    <h3>MVP</h3>
+    <p>4 Times</p>
+  </div>
+
+  <div class="box">
+    <h3>Team</h3>
+    <p>Lakers</p>
+  </div>
+</div>
+
+<button onclick="showMessage()">Klik Fans LeBron</button>
+
+  </div>  <script>
+    function showMessage() {
+      alert("LeBron James is my idol! 👑🏀");
+    }
+  </script></body>
+</html>
